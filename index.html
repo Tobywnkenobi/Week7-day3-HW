@@ -8,11 +8,9 @@
 </head>
 <body>
     <script src="./main.js"></script>
-    <form id="todo_form">
-        <input type="text" id="title" placeholder="Title"><br>
-        <input type="text" id="description" placeholder="description">
-        <button type="submit">Add todo</button>
-    </form>
-    <ul id="todo_list"></ul>
+    <input type="text" id="titleInput" placeholder="What Todo">
+    <input type="text" id="descInput" placeholder="What for?">
+    <button onclick="addTodo()">Add Todo</button>
+    <ul id="todoList"></ul>
 </body>
 </html>
